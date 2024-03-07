@@ -1,0 +1,180 @@
+@media (min-width: 800px) {
+    nav{
+        display: none;
+    }
+    
+    main {
+            /* border: 1px solid red; */
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        .form-container {
+            display: flex;
+            /* border: 1px solid black; */
+            background-color: white;
+            box-shadow: 0 14px 28px gray,
+                0 10px 10px rgba(128, 128, 128, 0.228);
+            height: 30em;
+            width: 50em;
+            border-radius: 12px;
+    
+        }
+    
+        form {
+            width: 25em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+        }
+    
+        aside {
+            /* background: rgb(0, 212, 255);
+        background: radial-gradient(circle, rgba(0, 212, 255, 1) 0%, rgb(59, 204, 233) 100%); */
+            /* background-color: #00DBDE;
+        background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+            /*background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 152, 155, 1) 0.1%, rgba(0, 94, 120, 1) 94.2%);*/
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            /*background-image: linear-gradient(109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);*/
+    
+            width: 25em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 0 12px 12px 0;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    
+        form h1 {
+            position: relative;
+            bottom: 40px;
+            font-weight: 800;
+            font-size: 42px;
+    
+        }
+    
+        .socials {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            position: relative;
+            bottom: 20px;
+    
+        }
+    
+    
+        form p {
+            font-size: 12px;
+    
+        }
+    
+        input {
+            border: none;
+            margin: 6px;
+            background-color: #cbc5c356;
+            padding: 10px;
+            width: 18em;
+            border-radius: 0.90rem;
+        }
+    
+        a {
+            text-decoration-line: none;
+            font-size: 14px;
+    
+        }
+    
+        button {
+            position: relative;
+            top: 20px;
+            border: solid 0px;
+            background-color: #8BC6EC;
+            /*background-image: linear-gradient(135deg, #8BC6EC 0%, #0d18f1 100%);*/
+            /*background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 152, 155, 1) 0.1%, rgba(0, 94, 120, 1) 94.2%);*/
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            width: 8em;
+            height: 3em;
+            border-radius: .9rem;
+        }
+    
+        footer {
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+
+.title_welcome{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    row-gap: 17px;
+    height: 100vh;
+}
+
+.title_welcome {
+    align-self: center;
+    padding: 10px 0 16px 0;
+}
+
+.socials {
+    display: none;
+}
+
+.formInput:first-of-type{
+    margin-top: 27px;
+}
+
+.confirmButton{
+    border: none;
+    border-radius: 30px;
+    width: 223px;
+    height: 36px;
+    background-color: #363C4F;
+    color: white;
+    align-self: center;
+}
+
+.logIn-option{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.lineDeco{
+    width: 55px;
+    border-bottom: black solid .5px;
+}
+
+.line_one{
+    position: relative;
+    bottom: 45px;
+    left: 85px;
+}
+
+.line_two{
+    position: relative;
+    bottom: 63px;
+    left: 175px;
+
+}
+
+aside{
+    display: none;
+}
+

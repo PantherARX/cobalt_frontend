@@ -1,0 +1,50 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    background-color: transparent;
+    border: solid black 1.5px;
+    border-radius: 2px;
+    width: 145px;
+    height: 85px;
+}
+
+.googleOption{
+    font-size: 11px;
+    height: fit-content;
+    align-self: center;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.formInput:first-of-type {
+    margin-top: 27px;
+}
+
+.credentialsOpt_message{
+    margin-bottom: 15px;
+}
+
+.credentials_message{
+    position: absolute;
+    top: 158px;
+    background-color: #D9D9D9;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.logInOption{
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 18px;
+    height: 30px;
+    width: 195px;
+    font-size: 10px;
+
+}
+
+.logIn_message-container{
+    align-self: center;
+    padding-left: 3px;
+}

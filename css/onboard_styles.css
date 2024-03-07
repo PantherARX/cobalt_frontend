@@ -1,0 +1,96 @@
+*{
+    font-size: 11px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 46px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 2px 1.5px rgba(0, 0, 0, 0.25));
+}
+
+.logo svg {
+    align-self: center;
+}
+
+.backArrow_logo {
+    display: flex;
+    position: relative;
+    right: 130px;
+}
+
+.backArrow_logo > img {
+    height: 25px;
+    width: auto;
+    align-self: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    width: 315px;
+    height: 50vh;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_welcome {
+    font-weight: 700;
+    font-size: 16px;
+    align-self: center;
+    padding: 10px 0 16px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    row-gap: 17px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+#onBoard_Message {
+    font-size: 11px;
+    margin-bottom: 22px;
+}
+
+.formInput {
+    width: 280px;
+    height: 30px;
+    border: solid #5f5f5f 0.5px;
+    align-self: center;
+    border-radius: 2px;
+    background-color: transparent;
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.confirmButton {
+    border: none;
+    border-radius: 30px;
+    width: 223px;
+    height: 36px;
+    background-color: #363C4F;
+    color: white;
+    align-self: center;
+}
+
+.confirmText{
+    margin-top: 17px;
+    font-size: 11px;
+    font-weight: 600;
+}
+

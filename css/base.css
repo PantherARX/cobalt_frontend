@@ -21,3 +21,12 @@ li{
 .hidden{
     display: none;
 }
+
+.textCenter{
+    text-align: center;
+}
+
+aside {
+    display: none;
+}
+
