@@ -29,7 +29,3 @@ windowSize.addEventListener("change", () => {
 })
 
 
-optionButton.addEventListener("click", () => {
-    h1.textContent = ""
-}) 
-
