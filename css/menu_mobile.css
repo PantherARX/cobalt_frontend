@@ -1,14 +1,10 @@
 .mobile_menu{
-    position: relative;
+    position: absolute;
     width: 160px;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
     font-size: 11px;
     text-align: center;
-}
-
-.list_menu{
-    
 }
 
 .option_menu{

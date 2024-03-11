@@ -1,6 +1,5 @@
-.content{
+.card_landing{
     display: flex;
-    
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -14,11 +13,84 @@
     z-index: 2;
 }
 
-.content > img{
+.card_landing > img{
     height: 112px;
     object-fit: cover;
     filter: brightness(70%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
+
+}
+
+.card_container {
+    height: 155px;
+    width: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.card_container:nth-child(2n+1){
+    flex-direction: row-reverse;
+    background-color: #eaeaea;
+    box-shadow: 0 30px 15px -25px rgba(0, 0, 0, 0.25) inset;
+    text-align: right;
+}
+
+.card_container:nth-child(2n+1) > .copy_container > h3{
+    width: 167px;
+
+}
+
+.copy_container > h3{
+    font-size: 12px;
+    font-weight: bolder;
+    width: 143px;
+    height: 27px;
+    margin-bottom: 12px;
+}
+
+.card_container:nth-child(4)>.copy_container>h3 {
+    width: 169px;
+}
+
+.copy_container > h6{
+    font-size: 10px;
+    font-weight: normal;
+    width: 167px;
+    height: 40px;
+}
+
+.img_container > .mockups{
+    object-fit: cover;
+    width: 98px;
+    height: 65px;
+    border-radius: 11px;
+}
+
+.signup_module{
+    height: 155px;
+    width: auto;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.onboard_title{
+    width: 180px;
+    padding: 5px 10px;
+}
+
+.form_container{
+    height: 155px;
+    width: 180px;
+    background-color: #D9D9D9;
+}
+
+.btn_onboard{
+    
 
 }
