@@ -4,6 +4,10 @@
     
 }
 
+body{
+    height: 100vh;
+}
+
 a:link, a:visited{
     color: black;
     cursor: pointer;
