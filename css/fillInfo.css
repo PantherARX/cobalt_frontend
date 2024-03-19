@@ -1,4 +1,4 @@
-.formInput:first-of-type{
+.formInput:nth-child(1){
     margin-top: 27px;
 }
 
@@ -9,6 +9,10 @@
     height: 32px;
     justify-content: space-between;
 
+}
+
+#font_weight {
+    font-weight: 400;
 }
 
 .formProperties{
@@ -22,13 +26,15 @@
 
 .typeInput{
     width: 75px;
-    font-size: 8px;
+    font-size: 9px;
+    font-weight: 400;
 
 }
 
 .idInput{
     width: 202px;
     font-size: 10px;
+    font-weight: 400;
     
 }
 

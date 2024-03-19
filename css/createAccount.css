@@ -120,14 +120,6 @@
     font-size: 16px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    background-color: #D9D9D9;
-    row-gap: 17px;
-    height: 100vh;
-}
-
 .title_welcome {
     align-self: center;
     padding: 10px 0 16px 0;
@@ -136,12 +128,11 @@ form{
 .socials {
     display: flex;
     justify-content: center;
-    margin-bottom: 22px;
     background-color: transparent;
     border: solid black 1.5px;
     border-radius: 2px;
     width: 145px;
-    height: 85px;
+    height: 32px;
 }
 
 .googleOption {
@@ -154,7 +145,7 @@ form{
 
 .credentials_message {
     position: absolute;
-    top: 175px;
+    top: 169px;
     background-color: #D9D9D9;
     padding: 5px;
     border-radius: 12px;

@@ -1,12 +1,11 @@
 .socials{
     display: flex;
     justify-content: center;
-    margin-bottom: 22px;
     background-color: transparent;
     border: solid black 1.5px;
     border-radius: 2px;
     width: 145px;
-    height: 85px;
+    height: 32px;
 }
 
 .googleOption{
@@ -27,7 +26,7 @@
 
 .credentials_message{
     position: absolute;
-    top: 158px;
+    top: 153px;
     background-color: #D9D9D9;
     padding: 5px;
     border-radius: 12px;
