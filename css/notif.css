@@ -1,0 +1,30 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container{
+    background-color: #d9d9d9;
+    width: 70vw;
+    height: 5vh;
+    border-radius: .25rem;
+    margin-top: 1rem;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0 5rem;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.check-box{
+    height: 23px;
+    width: 23px;
+    background-color: white;
+}
