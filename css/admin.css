@@ -1,0 +1,49 @@
+* {
+    font-size: 11px;
+}
+
+body{
+    background-color: #363C4F;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    background-color: #ffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 2px 1.5px rgba(0, 0, 0, 0.25));
+}
+
+.logo svg {
+    align-self: center;
+}
+
+.backArrow_logo {
+    display: flex;
+    position: relative;
+    right: 130px;
+}
+
+.backArrow_logo>img {
+    height: 25px;
+    width: auto;
+    align-self: center;
+}
+
+main {
+    display: block;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70vh;
+    width: 85vw;
+    background-color: #EAEAEA;
+}
