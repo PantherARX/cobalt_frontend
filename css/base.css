@@ -4,13 +4,12 @@
     
 }
 
-
-
 main{
     height: 100%;
 }
 
 body{
+    
     background-color: #363C4F;
     height: 100vh;
 }

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Logo 3.png" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;800;900&display=swap"
+        rel="stylesheet">
     <title>Administrador</title>
 </head>
 <body>
@@ -22,6 +25,20 @@
             </svg>
         </div>
     </nav>
-    <main></main>
+    <main>
+        <div class="container container-properties">
+            <h1 class="title_admin">Modulo de administración</h1>
+            <select name="users" id="" class="formInput">
+                <option id="typeInfo" value="" disabled selected>Buscar usuario</option>
+                <option value=""></option>
+            </select>
+            <select name="notif" id="" class="formInput">
+                <option id="typeInfo" value="" disabled selected>Tipo de notificación</option>
+                <option value=""></option>
+            </select>
+            <textarea class="notif_text-properties" name="notif-text" id="" cols="30" rows="5" placeholder="Ingresa el mensaje"></textarea>
+            <button class="confirmButton">Enviar</button>
+        </div>
+    </main>
 </body>
 </html>
