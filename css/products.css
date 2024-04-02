@@ -1,0 +1,125 @@
+* {
+    font-size: 11px;
+}
+
+body {
+    background-color: #363C4F;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    background-color: #ffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0 2px 1.5px rgba(0, 0, 0, 0.25));
+}
+
+.logo svg {
+    align-self: center;
+}
+
+.backArrow_logo {
+    display: flex;
+    position: relative;
+    right: 130px;
+}
+
+.backArrow_logo>img {
+    height: 25px;
+    width: auto;
+    align-self: center;
+}
+
+main {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EAEAEA;
+}
+
+.container {
+    padding: 1rem 0;
+    height: auto;
+
+}
+
+.container-properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    height: 100%;
+}
+
+.cards_shopping{
+    border: 1px solid gainsboro;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+
+}
+
+.product-name{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.product-description{
+    font-style: italic;
+    font-size: 11px;
+}
+
+.product-price{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.product_image{
+    height: 85px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+    border: transparent;
+    box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.253);
+}
+
+.info_product{
+    width: 90px;
+}
+
+.product-stock{
+    display: flex;
+    column-gap: 5px;
+
+}
+
+.order-product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 110px;
+}
+
+.product-quantity{
+    font-size: 16px;
+    align-self: center;
+    padding: 0 20px;
+}
+
+.product-add{
+    border: none;
+    color: white;
+    padding: 7px 11px;
+    background-color: #363C4F;
+    border-radius: 1rem;
+
+}
