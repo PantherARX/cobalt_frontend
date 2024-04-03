@@ -1,0 +1,8 @@
+.follow_message{
+    width: 250px;
+    text-align: center;
+}
+
+.formInput:nth-child(1) {
+    margin-top: 27px;
+}

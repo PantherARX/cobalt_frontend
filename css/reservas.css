@@ -112,16 +112,10 @@ main{
             column-gap: 0.7rem;
             height: 20rem;
         }
-        .property_img {
-            
-        }
 
         .reserves {
             top: 50%;
             left: 40%;
         }
-    /* .property_photo {
-            height: 10rem;
-            width: 11rem;
-    } */
+
 }
