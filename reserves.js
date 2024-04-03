@@ -5,11 +5,6 @@ reserves.forEach((e) => {
     e.addEventListener("click", () => {
         const test = e.querySelector(".reserves")
         test.classList.toggle("hidden");
-        const button = e.querySelector(".button-input");
-        // button.addEventListener("click", () => {
-        //     console.log("click");
-        //     test.classList.toggle("hidden");
-        // });
     });
 });
 
