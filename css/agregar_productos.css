@@ -101,3 +101,57 @@ form {
     color: white;
     align-self: center;
 }
+
+.product-container{
+    padding: 5px;
+    width: 280px;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.products{
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+.product-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.product-info{
+    align-self: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.button-container{
+    display: flex;
+    
+}
+
+.button-properties {
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+}
+
+.edit-button{
+
+
+}
+
+.delete-button{
+    color: red;
+
+}
