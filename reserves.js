@@ -18,8 +18,6 @@ reserveImg.forEach((e, i, arr) => {
 
         btn.addEventListener("click", () => {
             for (let f = 0; f < arr.length; f++){
-                console.log(arr[f])
-                // console.log(arr[f]);
                 arr[f].classList.remove("hide-all");
                 popUp.classList.add("hidden");
             }
