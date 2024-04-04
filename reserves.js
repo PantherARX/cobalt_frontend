@@ -1,22 +1,30 @@
-const reserves = document.querySelectorAll(".property_img");
-const buttonReserve = document.querySelector(".button-input");
+// const reserves = document.querySelectorAll(".property_img");
+const reserveImg = document.querySelectorAll(".property_photo");
 
-reserves.forEach((e) => {
-    
-    e.addEventListener("click", () => {
-        const test = e.querySelector(".reserves")
-        test.classList.toggle("hidden");
-        e.parentElement.parentElement.setAttribute("disabled", "");
-        console.log(e.innerHTML);
-        // e.setAttribute("disabled", "");
+reserveImg.forEach((e, i, arr) => {
+    const main = document.querySelector("main");
+    e.addEventListener("click", (element) => {
+        const popUp = e.parentElement.querySelector(".reserves");
+        const btn = e.parentElement.querySelector(".button-input");
+
+        popUp.classList.toggle("hidden");
+
         
-    });
+        for (let ind = 0; ind < arr.length; ind++){
+            if(element.currentTarget != arr[ind]){
+                arr[ind].classList.add("hide-all");
+            }
+        }
 
-});
+        btn.addEventListener("click", () => {
+            for (let f = 0; f < arr.length; f++){
+                console.log(arr[f])
+                // console.log(arr[f]);
+                arr[f].classList.remove("hide-all");
+                popUp.classList.add("hidden");
+            }
+        })
 
-buttonReserve.addEventListener("click", () => {
-    const reserve = document.querySelector(".property_img");
-    console.log("click")
-    reserve.classList.toggle("hiddden");
-    
-});
+        
+    })
+})

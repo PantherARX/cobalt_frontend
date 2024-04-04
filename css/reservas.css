@@ -64,10 +64,15 @@ main{
     background-color: #363C4F;
     color: white;
     border-radius: 1rem;
-    margin-top: 20px;
+    position: relative;
+    top: 7px;
 }
 
 .hidden{display: none;}
+
+.hide-all{
+    pointer-events: none;
+}
 
 @media
     (372px <= width <= 556px) {
